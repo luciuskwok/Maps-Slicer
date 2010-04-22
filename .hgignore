@@ -1,0 +1,20 @@
+syntax: glob
+build/*
+*.orig
+*.rej
+*.svn
+*.git
+*.o 
+*.lo
+*.la
+*~ 
+#* 
+.DS_Store 
+*~.nib 
+*.mode1 
+*.mode2
+*.mode1v3
+
+syntax: regexp
+.*\#.*\#$
+\(.*
